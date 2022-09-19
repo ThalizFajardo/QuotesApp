@@ -3,12 +3,9 @@ import React from 'react';
 import { useState } from 'react';
 
 const colors = [
-    "#845EC2",
-    "#D65DB1",
-    "#FF6F91",
-    "#FF9671",
-    "#FFC75F",
-    "#F9F871"
+    "rgb(249, 72, 146)", "rgb(17, 43, 60)","rgb(89, 6, 150)",
+    "rgb(32, 83, 117)", "rgb(255, 127, 63)","rgb(210, 0, 26)",
+    "rgb(251, 223, 7)", "rgb(137, 207, 253)"
 ];
 
 const QuoteBox = () => {
@@ -37,7 +34,7 @@ const QuoteBox = () => {
             <div className='quoteCard' style={{ color: color }} >
                 <ul>
                     <li>
-                        <p><i class="fa-solid fa-quote-left" style={{color:color}}></i>{quotes[index].quote}</p>
+                        <p><i className="fa-solid fa-quote-left" style={{ color: color }}></i>  {quotes[index].quote}</p>
                     </li>
                     <li>
                         <small>{quotes[index].author}</small>
@@ -45,7 +42,7 @@ const QuoteBox = () => {
                     <li>
 
                         <button onClick={change} style={{ background: color }} >
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
                         </button>
                     </li>
                 </ul>

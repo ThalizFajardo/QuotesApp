@@ -9,15 +9,13 @@
 .app {
     text-align: center;
     text-align: justify;
-    left: 50%;
-    top: 50%;
 }
 
 .quoteCard {
-    margin: 10% 25% auto 25%;
+    margin: 10% 30%;
     padding: 2rem;
     border-radius: 8px;
-    background-color: whitesmoke;
+    background-color: white; 
     box-shadow: 3px 4px 12px black;
     width: 400px;
 }
